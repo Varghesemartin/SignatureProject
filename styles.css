@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 100vh;
+}
+.canvas{
+    border: 2px solid black;
+}
+.top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.block, input, select{
+    width: 40%;
+    margin: 10px;
+}
+.bottom, button{
+    width: 80%;
+    margin: 10px;
+    margin-left: 20px;
+} 
+
+.block, p{
+    margin: 10px auto;
+    margin-left: 10px;
+    width: 50%;
+}
